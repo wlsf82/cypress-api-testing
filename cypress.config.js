@@ -6,4 +6,7 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
   },
+  env: {
+    API_BASE_URL: 'https://api.typeform.com/'
+  }
 })
